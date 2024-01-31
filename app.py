@@ -89,8 +89,8 @@ st.markdown("---")
 
 
 
-path = "upload"
-model_path = "PestImageClassificationInception.h5"
+path = 'upload'
+model_path = 'PestImageClassificationInception.h5'
 #model_path = 'C:\\Users\\asus\\PycharmProjects\\PestClassification\\PestImageClassificationCNN.h5'
 
 def save_uploadedfile(uploadedfile, path):
