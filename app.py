@@ -99,7 +99,7 @@ def save_uploadedfile(uploadedfile, path):
     print("Saved File:{} to upload".format(uploadedfile.name))
 
 
-st.subheader("Pest Image Classification using CNN")
+st.subheader("Pest Image Classification")
 upload = st.file_uploader('##### Upload a pest image')
 
 def prediction(savedModel, inputImage):
